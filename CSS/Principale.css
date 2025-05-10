@@ -1,0 +1,49 @@
+:root {
+    --blanc-casse: #f8f9fa;
+    --bleu-ocean: #0077b6;
+    --bleu-fonce: #023e8a;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--blanc-casse);
+    color: var(--bleu-fonce);
+}
+
+header {
+    background-color: var(--bleu-ocean);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.corps{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--bleu-fonce);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--bleu-ocean);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: var(--bleu-fonce);
+}
